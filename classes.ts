@@ -35,7 +35,7 @@ class Person {
   private message: string;
 
   constructor(private name: string) {
-    this.message = ""; // 초기화
+    this.message = "";
     console.log("생성자가 만들어짐");
   }
 
