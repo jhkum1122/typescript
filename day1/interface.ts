@@ -1,3 +1,4 @@
+/*
 interface MyInterface {
   myProperty: number;
   doSomething(): void;
@@ -19,3 +20,4 @@ const myObject = new MyClass(500);
 myObject.doSomething();
 // test 1
 // 20240626
+*/

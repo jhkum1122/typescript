@@ -30,7 +30,7 @@ class Person{
 const tim = new Person("Hello World!");
 // tim.msg = "안녕안녕";
 tim.speak();
-*/
+
 class Person {
   private message: string;
 
@@ -59,3 +59,4 @@ tim.Message = "Hello World! Tim"; // 이름을 포함하는 메시지 설정
 
 // 메시지 가져오기
 console.log(tim.Message); // "Hello World! Tim" 출력
+*/

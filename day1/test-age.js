@@ -1,3 +1,4 @@
+/*
 "use strict";
 function canDrive(usr) {
     console.log("user is ", usr.name);
@@ -13,3 +14,4 @@ const tom = {
     age: 20
 };
 canDrive(tom);
+*/

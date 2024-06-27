@@ -1,3 +1,4 @@
+/*
 "use strict";
 class MyClass {
   constructor(myProperty) {
@@ -9,3 +10,4 @@ class MyClass {
 }
 const myObject = new MyClass(500);
 myObject.doSomething();
+*/
