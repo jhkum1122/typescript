@@ -3,3 +3,5 @@ function runMore(distance: number): number {
 }
 
 console.log(runMore(10));
+
+export {};
