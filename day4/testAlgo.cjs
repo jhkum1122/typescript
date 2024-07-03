@@ -14,11 +14,12 @@ function validateStringLength(str) {
   const maxLength = 1000000;
 
   if (str.length >= minLength && str.length <= maxLength) {
-    console.log("문자열의 길이가 유효합니다.");
+    console.log("문자열의 길이가 유효합니다." + str.length);
     return true;
   } else {
     console.log(
-      "문자열의 길이가 유효하지 않습니다. 길이는 1에서 1,000,000 사이여야 합니다."
+      "문자열의 길이가 유효하지 않습니다. 길이는 1에서 1,000,000 사이여야 합니다." +
+        str.length
     );
     return false;
   }
@@ -27,17 +28,17 @@ function validateStringLength(str) {
 // 'line' 이벤트 리스너를 설정합니다. 사용자가 한 줄을 입력하면 실행됩니다.
 rl.on("line", function (line) {
   // 입력된 줄을 input 배열에 저장합니다.
-  console.log("입력된 줄을 input 배열에 저장");
+  //  console.log("입력된 줄을 input 배열에 저장");
   input = [line];
 
   let noSpacesStr = line.replace(/\s/g, "");
-
+  /*
   console.log("input = ", input);
   console.log("line = ", line);
   console.log("noSpacesStr = ", noSpacesStr);
-
-  let valStr = false;
-  valStr = validateStringLength(noSpacesStr);
+*/
+  // let valStr = false;
+  validateStringLength(noSpacesStr);
 }).on("close", function () {
   // 입력이 종료되면 실행됩니다.
   // 첫 번째 입력을 str 변수에 저장합니다.
