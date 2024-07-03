@@ -1,3 +1,4 @@
+/*
 import { Component } from "react";
 
 const App = () => {
@@ -8,7 +9,7 @@ const App = () => {
 };
 
 export default App;
-
+*/
 /*
 import { Component } from "react";
 
@@ -87,3 +88,33 @@ export default class App extends Component {
   }
 }
 */
+
+import EventLisner from "./pages/EventListner";
+import OnClick from "./pages/OnClick";
+import ReactOnClick from "./pages/ReactOnClick";
+import DispatchEvent from "./pages/DispatchEvent";
+import EventBubbling from "./pages/EventBubbling";
+import StopPropagation from "./pages/StopPropagation";
+import VariousInputs from "./pages/VariousInputs";
+import OnChange from "./pages/OnChange";
+import FileInput from "./pages/FileInput";
+import FileDrop from "./pages/FileDrop";
+import DragDrop from "./pages/DragDrop";
+
+export default function App() {
+  return (
+    <div>
+      <EventLisner />
+      <OnClick />
+      <ReactOnClick />
+      <DispatchEvent />
+      <EventBubbling />
+      <StopPropagation />
+      <VariousInputs />
+      <OnChange />
+      <FileInput />
+      <FileDrop />
+      <DragDrop />
+    </div>
+  );
+}
